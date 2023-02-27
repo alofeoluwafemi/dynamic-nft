@@ -1,0 +1,37 @@
+{
+    "name": "dynamic-nft",
+    "version": "1.0.0",
+    "description": "Custom Celo Composer project.",
+    "private": true,
+    "author": "Celo",
+    "license": "MIT",
+    "scripts": {
+        "hardhat:test": "yarn workspace @dynamic-nft/hardhat test",
+        "hardhat:test-local": "yarn workspace @dynamic-nft/hardhat test-local",
+        "hardhat:accounts": "yarn workspace @dynamic-nft/hardhat accounts",
+        "hardhat:devchain": "yarn workspace @dynamic-nft/hardhat devchain",
+        "hardhat:deploy": "yarn workspace @dynamic-nft/hardhat deploy",
+        "hardhat:deploy-reset-watch": "yarn workspace @dynamic-nft/hardhat deploy-reset-watch",
+        "hardhat:watch": "yarn workspace @dynamic-nft/hardhat watch",
+        "hardhat:fork-mainnet": "yarn workspace @dynamic-nft/hardhat fork-mainnet",
+        "react-app:dev": "yarn workspace @dynamic-nft/react-app dev",
+        "react-app:build": "yarn workspace @dynamic-nft/react-app build",
+        "react-app:start": "yarn workspace @dynamic-nft/react-app start",
+        "react-app:lint": "yarn workspace @dynamic-nft/react-app lint"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/celo-org/celo-composer.git"
+    },
+    "bugs": {
+        "url": "https://github.com/celo-org/celo-composer/issues"
+    },
+    "homepage": "https://github.com/celo-org/celo-composer/blob/main/README.md",
+    "workspaces": [
+        "packages/*"
+    ],
+    "keywords": [
+        "celo-composer",
+        "celo"
+    ]
+}
